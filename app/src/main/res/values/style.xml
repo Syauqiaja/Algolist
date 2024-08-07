@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  ============== BEGIN OF SHAPE APPEARANCE ==================   -->
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomCardViewStyle" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+    </style>
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">24dp</item>
+    </style>
+    <style name="CustomHerbalPediaItemLabel" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_top_right_corner</item>
+    </style>
+    <style name="ShapeAppearanceOverlay_top_right_corner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="CustomCardViewStyle2" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners2</item>
+    </style>
+    <style name="ShapeAppearanceOverlay_card_custom_corners2" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeBottomRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner8dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner8dp.BotOnly" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner8dp.TopOnly" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.CardCustomCorner8dp.24Bot" parent="ShapeAppearanceOverlay.CardCustomCorner8dp">
+        <item name="cornerSizeBottomRight">24dp</item>
+        <item name="cornerSizeBottomLeft">24dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner12dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeTopLeft">12dp</item>
+        <item name="cornerSizeBottomRight">12dp</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner16dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.CardCustomCorner16dp.8dpBot" parent="ShapeAppearanceOverlay.CardCustomCorner16dp">
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner24dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeBottomRight">24dp</item>
+        <item name="cornerSizeBottomLeft">24dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomCorner24dp.TopOnly" parent="ShapeAppearanceOverlay.CardCustomCorner24dp">
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.ChatCard.Sender" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">12dp</item>
+        <item name="cornerSizeBottomRight">12dp</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.ChatCard.Receiver" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeBottomRight">12dp</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomExtremeTopRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">100dp</item>
+        <item name="cornerSizeTopRight">100dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCUstomExtremeBotRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomRight">50%</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCustomExtremeTopRounded.150" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">150dp</item>
+        <item name="cornerSizeTopRight">150dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardCircle" parent="">
+        <item name="android:shape">rectangle</item>
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+    <!--  ============== END OF SHAPE APPEARANCE ==================   -->
+    <style name="AppTheme.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="android:textColorSecondary">?attr/colorPrimary</item>
+    </style>
+    <style name="AppTheme.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+        <item name="colorSwitchThumbNormal">?attr/colorOnPrimary</item>
+        <item name="android:colorForeground">?attr/colorOnSurface</item>
+    </style>
+    <style name="AppTheme.NumberPicker" parent="">
+        <item name="colorControlNormal">?attr/colorPrimary</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textAppearance">@style/AppTheme.TextAppearance.Heading4.SemiBold</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+    </style>
+</resources>

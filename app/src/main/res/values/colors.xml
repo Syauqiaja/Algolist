@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Secondary   -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#F3F4F9</color>
+    <color name="black">#222527</color>
+    <color name="black_2">#1F2223</color>
+    <color name="grey">#3D3D43</color>
+    <color name="shimmer_gray">#DDDDDD</color>
+    <color name="neutral_400">#B8B8BD</color>
+
+    <!--  Primary  -->
+    <color name="primary">#1FACC3</color>
+    <color name="primary_50">#99DBE6</color>
+    <color name="primary_125">#1991A5</color>
+    <color name="primary_150">#116471</color>
+
+    <!-- State Negative   -->
+    <color name="state_negative_20">#FFE5D6</color>
+    <color name="state_negative_60">#E84C3D</color>
+    <color name="state_negative_100">#B7192B</color>
+
+    <!-- State Positive   -->
+    <color name="state_positive_20">#CDFCD2</color>
+    <color name="state_positive_60">#0CD373</color>
+    <color name="state_positive_100">#06976E</color>
+
+    <!--  State Warning  -->
+    <color name="notif">#FFB703</color>
+    <color name="warning">#FFCF57</color>
+
+    <color name="transparent">#00000000</color>
+</resources>

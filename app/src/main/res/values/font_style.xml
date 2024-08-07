@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  ======================================================== -->
+    <!--  =========== BEGIN OF TEXT APPEARANCE STYLING =========== -->
+    <!--  ======================================================== -->
+    <style name="AppTheme.TextAppearance" parent="">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--  Headings  -->
+    <style name="AppTheme.TextAppearance.Heading1" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_28ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading1.SemiBold" parent="AppTheme.TextAppearance.Heading1">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading4" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_18ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading4.SemiBold" parent="AppTheme.TextAppearance.Heading4">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading5" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading5.SemiBold" parent="AppTheme.TextAppearance.Heading5">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading5.Bold" parent="AppTheme.TextAppearance.Heading5">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Heading5.Grey" parent="AppTheme.TextAppearance.Heading5">
+        <item name="android:textColor">?attr/hintTextColor</item>
+    </style>
+
+    <!--  Body XL -->
+    <style name="AppTheme.TextAppearance.Body.XL" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.XL.Medium" parent="AppTheme.TextAppearance.Body.XL">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.XL.Bold" parent="AppTheme.TextAppearance.Body.XL">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.XL.SemiBold" parent="AppTheme.TextAppearance.Body.XL">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <!--  Body L -->
+    <style name="AppTheme.TextAppearance.Body.L" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.L.Grey" parent="AppTheme.TextAppearance">
+        <item name="android:textColor">?attr/hintTextColor</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.L.Medium" parent="AppTheme.TextAppearance.Body.L">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.L.SemiBold" parent="AppTheme.TextAppearance.Body.L">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <!--  Body L -->
+    <style name="AppTheme.TextAppearance.Body.M" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_11ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.M.Medium" parent="AppTheme.TextAppearance.Body.M">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.M.Semibold" parent="AppTheme.TextAppearance.Body.M">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.M.Bold" parent="AppTheme.TextAppearance.Body.M">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <!--  Body S  -->
+    <style name="AppTheme.TextAppearance.Body.S" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.S.Medium" parent="AppTheme.TextAppearance.Body.S">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.S.Semibold" parent="AppTheme.TextAppearance.Body.S">
+        <item name="fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <!--  Body XS  -->
+    <style name="AppTheme.TextAppearance.Body.XS" parent="AppTheme.TextAppearance">
+        <item name="android:textSize">@dimen/_8ssp</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.XS.SemiBold" parent="AppTheme.TextAppearance.Body.XS">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="AppTheme.TextAppearance.Body.XS.Bold" parent="AppTheme.TextAppearance.Body.XS">
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <!--  ======================================================== -->
+    <!--  ============ END OF TEXT APPEARANCE STYLING ============ -->
+    <!--  ======================================================== -->
+</resources>

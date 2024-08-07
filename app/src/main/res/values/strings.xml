@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Algolist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_task">+ New Task</string>
+    <string name="delete_task">Delete task</string>
+    <string name="title">Title<font color="#F04770">*</font></string>
+    <string name="description">Description<font color="#F04770">*</font></string>
+    <string name="date">Date<font color="#F04770">*</font></string>
+    <string name="field_marked">Fields marked <font color="#F04770">*</font> are required</string>
+</resources>

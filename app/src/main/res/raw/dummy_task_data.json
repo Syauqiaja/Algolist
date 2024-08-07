@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Standup Meeting",
+    "description": "Daily team standup meeting to discuss progress.",
+    "taskDate": "2024-08-07",
+    "time": "08:30"
+  },
+  {
+    "title": "Register UI",
+    "description": "Implement and test the registration user interface.",
+    "taskDate": "2024-08-07",
+    "time": "09:00"
+  },
+  {
+    "title": "Retrospective Meeting",
+    "description": "Review past sprint and discuss improvements.",
+    "taskDate": "2024-08-07",
+    "time": "08:30"
+  },
+  {
+    "title": "To do list Mockup",
+    "description": "Create and review the to-do list mockup.",
+    "taskDate": "2024-08-07",
+    "time": "10:00"
+  },
+  {
+    "title": "Checkout Mockup",
+    "description": "Design the checkout process mockup.",
+    "taskDate": "2024-08-07",
+    "time": "13:30"
+  },
+  {
+    "title": "Delete Mockup",
+    "description": "Mockup for item deletion functionality.",
+    "taskDate": "2024-08-07",
+    "time": "14:30"
+  },
+  {
+    "title": "Edit Mockup",
+    "description": "Design the mockup for editing items.",
+    "taskDate": "2024-08-07",
+    "time": "15:30"
+  },
+  {
+    "title": "Review Sprint Backlog",
+    "description": "Go through and prioritize the sprint backlog items.",
+    "taskDate": "2024-08-08",
+    "time": "09:00"
+  },
+  {
+    "title": "Prepare Deployment",
+    "description": "Prepare and verify the application for deployment.",
+    "taskDate": "2024-08-08",
+    "time": "11:00"
+  },
+  {
+    "title": "User Feedback Analysis",
+    "description": "Analyze the feedback received from users.",
+    "taskDate": "2024-08-08",
+    "time": "14:00"
+  }
+]

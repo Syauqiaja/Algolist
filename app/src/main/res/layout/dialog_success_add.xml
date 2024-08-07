@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_19sdp"
+    android:layout_marginHorizontal="@dimen/_19sdp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        app:lottie_rawRes="@raw/lottie_success"
+        app:lottie_autoPlay="true"
+        app:lottie_speed="1"
+        app:lottie_loop="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lottie"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:text="Successfully added a new task!"
+        android:textAppearance="@style/AppTheme.TextAppearance.Body.L.SemiBold"
+        android:textAlignment="center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
